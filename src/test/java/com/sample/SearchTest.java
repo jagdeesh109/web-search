@@ -19,7 +19,7 @@ public class SearchTest {
 		
 		WebDriver driver;
 		try {
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.firefox());
+			driver = new RemoteWebDriver(new URL("http://172.16.30.61:4444/wd/hub"), DesiredCapabilities.firefox());
 			driver.get("http://www.subcontract.com");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
