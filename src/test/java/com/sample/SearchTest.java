@@ -18,9 +18,9 @@ public class SearchTest {
 		System.out.println("This is the sample test");
 		
 		WebDriver driver;
-		/*try {
+		try {
 			System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
-			driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.chrome());
+			driver = new RemoteWebDriver(new URL("http://172.16.30.61:4444/wd/hub"), DesiredCapabilities.chrome());
 			driver.get("http://www.subcontract.com");
 			
 			driver.quit();
@@ -28,16 +28,16 @@ public class SearchTest {
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}*/
+		}
 		
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		/*System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		driver = new ChromeDriver();  //FirefoxDriver();
 		
 		
 		driver.get("http://www.subcontract.com");
 		
 		driver.quit();
-		
+*/		
 		//driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.firefox());
 			
 	}
