@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -28,7 +29,7 @@ public class SearchTest {
 			e.printStackTrace();
 		}*/ 
 				
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();  //FirefoxDriver();
 		driver.get("http://www.subcontract.com");
 		
 		driver.quit();
