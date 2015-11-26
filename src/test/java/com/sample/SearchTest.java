@@ -19,6 +19,7 @@ public class SearchTest {
 		
 		WebDriver driver;
 		try {
+			System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 			driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), DesiredCapabilities.chrome());
 			driver.get("http://www.subcontract.com");
 			
