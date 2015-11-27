@@ -32,6 +32,10 @@ public class SearchTest {
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (Exception e) {
+			
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 		/*System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
